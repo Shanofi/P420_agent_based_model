@@ -4,7 +4,10 @@ Introduction:
 We are a group of students from the University of Waterloo currently enrolled in Psychology 420: An Introduction to Computational Neuroscience Methods.
 
 As part of our coursework focusing on Agent-Based Modeling (ABM), we have completed our final project. Please find our presentation slides, source code, and final research paper attached for your review.
-In Regards to the Segregation model:
+
+In Regards to the Segregation model
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 In this model, we simulate a 2D space where the agents can live in different locations. Agents can also decide whether they want to move or stay at their location based on the similarity of their neighbors. Agents are happier if they live near other agents with similar characteristics and less happy when they are surrounded by agent(s) of a different characteristic.
 
 Once an agent becomes unhappy, the agent moves to a new location chosen at random from among all vacant locations. At the end of each time period, we measure the number of agents that would like to move (the "unhappy" count) as well as the overall level of satisfaction (or "happiness") in the entire system.
